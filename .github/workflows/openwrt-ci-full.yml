@@ -1,5 +1,5 @@
 
-name: OpenWrt-CI
+name: Build Mod for OpenWrt
 
 on:
   repository_dispatch:
@@ -54,7 +54,7 @@ jobs:
           ./scripts/feeds install -a
       - name: Generate configuration file
         run: |
-          curl -fsSL https://raw.githubusercontent.com/siropboy/other/master/patch/x86-64/allappdrv.config > .config
+          curl -fsSL https://raw.githubusercontent.com/Whitestorys/R619AC-128M/main/mod.config > .config
           make defconfig
 
       - name: Make download
