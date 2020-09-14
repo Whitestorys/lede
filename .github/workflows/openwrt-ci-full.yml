@@ -1,5 +1,5 @@
 
-name: Build Mod for OpenWrt
+name: Build for Mod OpenWrt
 
 on:
   repository_dispatch:
