@@ -1,4 +1,4 @@
-name: OpenWrt-mini-CI
+name: Build For Mini OpenWrt
 
 on:
   repository_dispatch:
