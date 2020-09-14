@@ -11,7 +11,7 @@ on:
 #    paths:
 #      - 'all.config'
   schedule:
-    - cron: 0 22 */2 * * 
+    - cron: 0 22 * * * 
   watch:
     types: started
 jobs:
